@@ -11,4 +11,5 @@ export class AppComponent {
   getVal() {
     return 'learn Angular';
   }
+  num = 100;
 }
