@@ -2,19 +2,17 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-country',
-  template: `
-    <p>
-      country works!
-    </p>
-  `,
+  template: ` <h2 class="costem">country works!</h2> `,
   styles: [
-  ]
+    `
+      .costem {
+        color: green;
+      }
+    `,
+  ],
 })
 export class CountryComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }
