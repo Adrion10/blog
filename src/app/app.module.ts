@@ -11,7 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { User1ListComponent } from './user1-list/user1-list.component';
 import { StudentListComponent } from './student-list/student-list.component';
 import { CountryComponent } from './country/country.component';
-import { UserAuthModule } from './user-auth/user-auth.module';
+import { User1AuthModule } from './user1-auth/user1-auth.module';
 
 @NgModule({
   declarations: [
@@ -25,9 +25,8 @@ import { UserAuthModule } from './user-auth/user-auth.module';
     User1ListComponent,
     StudentListComponent,
     CountryComponent,
-    UserAuthModule,
   ],
-  imports: [BrowserModule],
+  imports: [BrowserModule, User1AuthModule],
   providers: [],
   bootstrap: [AppComponent],
 })
