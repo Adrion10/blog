@@ -12,7 +12,7 @@ export class AppComponent {
     return 'learn Angular';
   }
   num = 100;
-  getName(name: string) {
+  getName(name: string | number) {
     alert(name);
   }
 }
