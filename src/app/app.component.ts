@@ -16,7 +16,7 @@ export class AppComponent {
     alert(name);
   }
   title = 'importent event in Angular';
-  getData() {
-    console.warn('hello world');
+  getData(val: string) {
+    console.warn(val);
   }
 }
