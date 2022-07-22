@@ -29,4 +29,9 @@
 <button (click)="getData('button click')">Click me</button>
 <br />
 <br />
-<input type="text" placeholder="keyup box" (keyup)="getData('keyup')" />
+<input
+  type="text"
+  #box1
+  placeholder="keyup box"
+  (keyup)="getData(box1.value)"
+/>
