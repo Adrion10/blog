@@ -57,4 +57,11 @@
 <h1 mouseover="getData('mouse over')">Code stepbe step</h1>
 <h1 mouseleave="getData('mouse leave')">LAce</h1>
 <h1>Get Input Box Value</h1>
-<input type="test" placeholder="Enter name" name="userName" />
+<input
+  type="test"
+  #box5
+  (keyup="getValue(box5.value)"
+  )
+  placeholder="Enter name"
+  name="userName"
+/>
