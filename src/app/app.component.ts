@@ -19,4 +19,8 @@ export class AppComponent {
   getData(val: string) {
     console.warn(val);
   }
+  title1 = 'get Imput value';
+  getValue() {
+    console.warn();
+  }
 }
