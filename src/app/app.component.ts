@@ -23,5 +23,6 @@ export class AppComponent {
   displayVal = '';
   getValue(val: string) {
     console.warn();
+    this.displayVal = val;
   }
 }
