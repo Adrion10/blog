@@ -22,6 +22,6 @@ export class AppComponent {
   title1 = 'get Imput value';
 
   getValue(val: string) {
-    console.warn();
+    console.warn(val);
   }
 }
