@@ -20,8 +20,10 @@ export class AppComponent {
     console.warn(val);
   }
   title1 = 'get Imput value';
+  displayVal = '';
 
   getValue(val: string) {
     console.warn(val);
+    this.displayVal = val;
   }
 }
