@@ -15,15 +15,15 @@ export class AppComponent {
   getName(name: string | number) {
     alert(name);
   }
-  // title = 'importent event in Angular';
+  title = 'importent event in Angular';
   getData(val: string) {
     console.warn(val);
   }
-  title = 'get Imput value';
-  displayVal = '';
+  // title = 'get Imput value';
+  // displayVal = 'string';
 
-  getValue(val: string) {
-    console.warn(val);
-    // this.displayVal = val;
-  }
+  // getValue(val: string) {
+  //   console.warn(val);
+  //   this.displayVal = val;
+  // }
 }
