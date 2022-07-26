@@ -19,11 +19,15 @@ export class AppComponent {
   getData(val: string) {
     console.warn(val);
   }
-  // title = 'get Imput value';
+  // title1 = 'get Imput value';
   // displayVal = 'string';
 
   // getValue(val: string) {
   //   console.warn(val);
   //   this.displayVal = val;
   // }
+  count = 0;
+  counter(type: string) {
+    type === 'add' ? this.count++ : this.count--;
+  }
 }
