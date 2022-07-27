@@ -31,5 +31,6 @@ export class AppComponent {
     type === 'add' ? this.count++ : this.count--;
   }
   name = 'Lace';
-  disable = true;
+  title6 = 'if else condition';
+  show = true;
 }
