@@ -82,4 +82,8 @@
 <input type="test2" [value]="name" />
 
 <h1>{{ title6 }}</h1>
-<h1 *ngIf="show">Code Step By Step</h1>
+<h1 *ngIf="show; else elseBlock">Code Step By Step</h1>
+
+<ng-template #elseBlock>
+  <h1>Else Condition</h1>
+</ng-template>
