@@ -30,4 +30,5 @@ export class AppComponent {
   counter(type: string) {
     type === 'add' ? this.count++ : this.count--;
   }
+  name = 'Lace';
 }
