@@ -32,5 +32,5 @@ export class AppComponent {
   }
   name = 'Lace';
   title6 = 'if else condition';
-  show = false;
+  show = true;
 }
