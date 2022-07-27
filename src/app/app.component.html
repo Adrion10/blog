@@ -83,7 +83,7 @@
 
 <h1>{{ title6 }}</h1>
 <!-- <h1 *ngIf="show; else elseBlock">Code Step By Step</h1> -->
-<h1 *ngIf="show; then ifBlock; else elseBlock">Code Step By Step</h1>
+<h1 *ngIf="show === 'yes'; then ifBlock; else elseBlock">Code Step By Step</h1>
 <ng-template #ifBlock>
   <h1>If Condition</h1>
 </ng-template>
