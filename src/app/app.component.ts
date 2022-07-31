@@ -34,4 +34,6 @@ export class AppComponent {
   title6 = 'if else condition';
   // show = true;
   show = 'yes';
+  title7 = 'if multi condition';
+  color = 'red';
 }
