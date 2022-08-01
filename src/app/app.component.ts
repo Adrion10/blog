@@ -35,5 +35,5 @@ export class AppComponent {
   // show = true;
   show = 'yes';
   title7 = 'if multi condition';
-  color = 'green';
+  color = 'blue';
 }
