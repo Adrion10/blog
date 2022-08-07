@@ -47,4 +47,14 @@ export class AppComponent {
     { name: 'Noel', email: 'noel@gmail.com', phone: '012348999' },
     { name: 'Marisol', email: 'marisola@gmail.com', phone: '01236' },
   ];
+  title11 = 'Nested Loop';
+  user = [
+    {
+      name: 'Lace',
+      email: 'lace@gmail.com',
+      phone: '0123456',
+    },
+    { name: 'Noel', email: 'noel@gmail.com', phone: '012348999' },
+    { name: 'Marisol', email: 'marisola@gmail.com', phone: '01236' },
+  ];
 }
