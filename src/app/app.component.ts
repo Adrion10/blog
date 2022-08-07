@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { timestamp } from 'rxjs';
 
 @Component({
   selector: 'app-root',
@@ -70,7 +71,9 @@ export class AppComponent {
   ];
   title12 = 'Style Binding';
   color = 'red';
+  bgColor = 'green';
   updateColor() {
-    this.color = 'blue';
+    this.color = 'red';
+    this.bgColor = 'blue';
   }
 }
