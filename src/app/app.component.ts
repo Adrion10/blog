@@ -39,7 +39,7 @@ export class AppComponent {
   title8 = 'Multipele condition or else if';
   // color = 'blue';
   title9 = 'Switch Case';
-  color = 'blue';
+  // color = 'blue';
   title10 = 'For loop';
   users = ['LAce', 'Noel', 'Marisola', 'Rovnea'];
   userDetails = [
@@ -68,4 +68,6 @@ export class AppComponent {
       accounts: ['facebook', 'Gmail', 'instagram'],
     },
   ];
+  title12 = 'Style Binding';
+  color = 'red';
 }
