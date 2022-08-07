@@ -40,4 +40,6 @@ export class AppComponent {
   // color = 'blue';
   title9 = 'Switch Case';
   color = 'blue';
+  title10 = 'For loop';
+  users = ['LAce', 'Noel', 'Marisola', 'Rovnea'];
 }
