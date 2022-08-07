@@ -122,4 +122,6 @@
 </div>
 <h1>{{ title10 }}</h1>
 <h3 *ngFor="let item of users">Name is: {{ item }}</h3>
-<h3 *ngFor="let item of userDetails">Detail is: {{ item.email }}</h3>
+<h3 *ngFor="let item of userDetails">
+  Detail is: {{ item.name }}---{{ item.email }}----{{ item.phone }}
+</h3>
