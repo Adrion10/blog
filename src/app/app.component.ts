@@ -42,4 +42,9 @@ export class AppComponent {
   color = 'blue';
   title10 = 'For loop';
   users = ['LAce', 'Noel', 'Marisola', 'Rovnea'];
+  userDetails = [
+    { name: 'Lace', email: 'lace@gmail.com', phone: '0123456' },
+    { name: 'Noel', email: 'noel@gmail.com', phone: '012348999' },
+    { name: 'Marisol', email: 'marisola@gmail.com', phone: '01236' },
+  ];
 }
