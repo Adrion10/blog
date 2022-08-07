@@ -70,4 +70,7 @@ export class AppComponent {
   ];
   title12 = 'Style Binding';
   color = 'red';
+  updateColor() {
+    this.color = 'blue';
+  }
 }
