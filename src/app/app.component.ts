@@ -37,5 +37,7 @@ export class AppComponent {
   title7 = 'if multi condition';
   // color = 'red';
   title8 = 'Multipele condition or else if';
-  color = 'blue';
+  // color = 'blue';
+  title9 = 'Switch Case';
+  color = 'yellow';
 }
