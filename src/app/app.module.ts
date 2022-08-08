@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { FormsModule } from '@angular/forms';
 
 import { RegisterComponent } from './register/register.component';
 import { ProfileComponent } from './profile/profile.component';
@@ -26,7 +27,7 @@ import { User1AuthModule } from './user1-auth/user1-auth.module';
     StudentListComponent,
     CountryComponent,
   ],
-  imports: [BrowserModule, User1AuthModule],
+  imports: [BrowserModule, User1AuthModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
