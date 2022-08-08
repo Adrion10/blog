@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { timestamp } from 'rxjs';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -17,9 +18,9 @@ export class AppComponent {
     alert(name);
   }
   title = 'importent event in Angular';
-  getData(val: string) {
-    console.warn(val);
-  }
+  // getData(val: string) {
+  //   console.warn(val);
+  // }
   // title1 = 'get Imput value';
   // displayVal = 'string';
 
@@ -75,5 +76,10 @@ export class AppComponent {
   updateColor() {
     this.color = 'red';
     this.bgColor = 'blue';
+  }
+  title13 = 'Basic Form';
+  userData: any = {};
+  getData(data: NgForm) {
+    console.warn(data);
   }
 }
