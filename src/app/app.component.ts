@@ -77,3 +77,4 @@ export class AppComponent {
     this.bgColor = 'blue';
   }
 }
+// leson 21
