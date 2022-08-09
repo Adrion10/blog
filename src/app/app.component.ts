@@ -81,5 +81,6 @@ export class AppComponent {
   userData: any = {};
   getData(data: NgForm) {
     console.warn(data);
+    this.userData = data;
   }
 }

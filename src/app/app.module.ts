@@ -13,6 +13,7 @@ import { User1ListComponent } from './user1-list/user1-list.component';
 import { StudentListComponent } from './student-list/student-list.component';
 import { CountryComponent } from './country/country.component';
 import { User1AuthModule } from './user1-auth/user1-auth.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,7 @@ import { User1AuthModule } from './user1-auth/user1-auth.module';
     StudentListComponent,
     CountryComponent,
   ],
-  imports: [BrowserModule, User1AuthModule, FormsModule],
+  imports: [BrowserModule, User1AuthModule, FormsModule, BrowserAnimationsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
