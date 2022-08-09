@@ -14,6 +14,7 @@ import { StudentListComponent } from './student-list/student-list.component';
 import { CountryComponent } from './country/country.component';
 import { User1AuthModule } from './user1-auth/user1-auth.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSliderModule } from '@angular/material/slider';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     StudentListComponent,
     CountryComponent,
   ],
-  imports: [BrowserModule, User1AuthModule, FormsModule, BrowserAnimationsModule],
+  imports: [
+    BrowserModule,
+    User1AuthModule,
+    FormsModule,
+    BrowserAnimationsModule,
+    MatSliderModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
